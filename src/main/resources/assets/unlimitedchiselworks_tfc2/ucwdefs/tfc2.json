@@ -1,0 +1,186 @@
+{
+  "blocks": [
+    {
+      "from": {
+        "block": "tfc2:dirt",
+        "iterate": [
+          "stone"
+        ]
+      },
+      "through": {
+        "block": "chisel:dirt",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC2Dirt",
+      "based_upon": {
+        "state": "minecraft:dirt#snowy=false,variant=dirt"
+      }
+    },
+    {
+      "from": {
+        "block": "tfc2:planks",
+        "iterate": [
+          "wood"
+        ]
+      },
+      "mode": "plank",
+      "through": {
+        "block": "chisel:planks-oak",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC2Planks",
+      "based_upon": {
+        "state": "minecraft:planks#variant=oak"
+      }
+    },
+    {
+      "from": {
+        "block": "tfc2:planks2",
+        "iterate": [
+          "wood"
+        ]
+      },
+      "mode": "plank",
+      "through": {
+        "block": "chisel:planks-oak",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC2Planks",
+      "based_upon": {
+        "state": "minecraft:planks#variant=oak"
+      }
+    },
+    {
+      "from": {
+        "block": "tfc2:stonebrick",
+        "iterate": [
+          "stone"
+        ]
+      },
+      "overlay": {
+        "block": "tfc2:stone",
+        "iterate": [
+          "stone"
+        ]
+      },
+      "through": {
+        "block": "chisel:stonebrick",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC2StoneBrick",
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "block": "tfc2:stonebrick",
+        "iterate": [
+          "stone"
+        ]
+      },
+      "overlay": {
+        "block": "tfc2:stone",
+        "iterate": [
+          "stone"
+        ]
+      },
+      "through": {
+        "block": "chisel:stonebrick1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC2StoneBrick",
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "block": "tfc2:stonebrick",
+        "iterate": [
+          "stone"
+        ]
+      },
+      "overlay": {
+        "block": "tfc2:stone",
+        "iterate": [
+          "stone"
+        ]
+      },
+      "through": {
+        "block": "chisel:stonebrick2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC2StoneBrick",
+      "based_upon": {
+        "state": "minecraft:stonebrick#variant=stonebrick"
+      }
+    },
+    {
+      "from": {
+        "block": "tfc2:rubble",
+        "iterate": [
+          "stone"
+        ]
+      },
+      "through": {
+        "block": "chisel:cobblestone",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC2Rubble",
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "block": "tfc2:rubble",
+        "iterate": [
+          "stone"
+        ]
+      },
+      "through": {
+        "block": "chisel:cobblestone1",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC2Rubble",
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    },
+    {
+      "from": {
+        "block": "tfc2:rubble",
+        "iterate": [
+          "stone"
+        ]
+      },
+      "through": {
+        "block": "chisel:cobblestone2",
+        "iterate": [
+          "variation"
+        ]
+      },
+      "custom_block_class": "pl.asie.ucw.BlockUCWTFC2Rubble",
+      "based_upon": {
+        "state": "minecraft:cobblestone"
+      }
+    }
+  ]
+}

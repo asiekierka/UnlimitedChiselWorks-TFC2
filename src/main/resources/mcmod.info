@@ -1,0 +1,16 @@
+[
+{
+  "modid": "unlimitedchiselworks_tfc2",
+  "name": "Unlimited Chisel Works - TFC2 Compat",
+  "description": "hexagons",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["asie"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
